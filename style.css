@@ -175,7 +175,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #3d21ab;
+    background-color: #4024ae;
     
   }
   .box{
@@ -186,6 +186,12 @@ span{
     padding: 23px 0px 17px;
     border-radius: 20%;
     color: #02162b;
+    margin-bottom: 20px;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {background-color:#FFC300;}
+    to {background-color:#e8e6df;}
   }
   .boximg{
     height: 350px;
@@ -198,10 +204,20 @@ span{
   .content{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+    text-align: center;
   }
-  
+
 .content a{
     text-decoration: none;
+}
+.footpanel{
+    background-color:#001D3D;
+    border-top: 2px solid rgb(146, 140, 140);
+}
+.footlogo{
+    height: 200px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    
 }
