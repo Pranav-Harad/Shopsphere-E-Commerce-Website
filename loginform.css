@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 100vh;
+    background: linear-gradient(120deg,#4024ae,#ae2495);
+    overflow: hidden;
+}
+.loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background: white;
+    border-radius: 12px;
+}
+.loginbox h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1.5px solid silver;
+}
+.loginbox form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .inputfield{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.inputfield input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+}
+.inputfield label{
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+}
+.pass label{
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+}
+.inputfield span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 2px;
+    background: #4024ae;
+    width: 0%;
+}
+.inputfield input:focus ~ label,
+.inputfield input:valid ~ label {
+        top: -5px;
+        color: #4024ae;
+}
+.inputfield input:focus ~ span::before,
+.inputfield input:valid ~ span::before {
+    width: 100%;
+}
