@@ -169,9 +169,9 @@ span{
   } 
   .slide-msg{
     background-color: #4024ae;
-    color: #c82edf;
+    color: #dfc82e;
     font-size: 1.7rem;
-    font-style: italic;
+    font-style:italic;
   }
 
   /* shop-category */
@@ -191,9 +191,9 @@ span{
     border-radius: 20%;
     color: #02162b;
     margin-bottom: 20px;
-    animation: mymove 5s infinite;
+    animation: coloranimate 5s infinite;
   }
-  @keyframes mymove {
+  @keyframes coloranimate {
     from {background-color:#FFC300;}
     to {background-color:#e8e6df;}
   }
