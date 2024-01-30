@@ -47,7 +47,7 @@ form .inputfield{
 .forgot a {
     text-decoration: none;
     margin: -5px 0 20px 5px;
-    color: black;
+    color: #4024ae;
     cursor: pointer;
 }
 .forgot a:hover {
@@ -76,7 +76,7 @@ input[type="submit"]:hover{
     color: #adadad;
 }
 .signup a {
-    color: black;
+    color: #4024ae;
     text-decoration: none;
 }
 .signup a:hover{
