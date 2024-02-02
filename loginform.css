@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: linear-gradient(120deg,#4024ae,#ae2495);
+    background: linear-gradient(120deg,#4024ae,#ae2495,#FFC300);
     overflow: hidden;
 }
 .loginbox{
@@ -49,9 +49,11 @@ form .inputfield{
     margin: -5px 0 20px 5px;
     color: #4024ae;
     cursor: pointer;
+    font-weight:600;
 }
 .forgot a:hover {
     text-decoration: underline;
+    font-weight:600;
 }
 input[type="submit"]{
     width: 100%;
@@ -74,10 +76,12 @@ input[type="submit"]:hover{
     text-align: center;
     font-size: 16px;
     color: #adadad;
+   
 }
 .signup a {
     color: #4024ae;
     text-decoration: none;
+    font-weight: 600;
 }
 .signup a:hover{
     text-decoration: underline;
