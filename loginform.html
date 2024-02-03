@@ -9,12 +9,12 @@
 <body>
     <div class="loginbox">
         <h1>Login</h1>
-        <form method="post">
+        <form method="post" onsubmit="myfunc(event)">
             <div class="inputfield" >
-                <input type="text" placeholder="Email or Username" required>
+                <input type="text" placeholder="Email or Mobile" id="eorm" required>
             </div>
             <div class="inputfield" >
-                <input type="password" placeholder="Password" required>  
+                <input type="password" placeholder="Password" id="pass" required>  
             </div>
             <div class="forgot">
                 <a href="#">Forgot password?</a></div>
@@ -23,6 +23,18 @@
                     Don't have account? <a href="sign_up.html">Signup</a>
                 </div>
         </form>
+
+        <script type="text/javascript">
+            function myfunc(event) {
+                event.preventDefault();
+
+                var eorm = document.getElementById("eorm").value;
+                var pass = document.getElementById("pass").value;
+                
+                localStorage.setItem('ls_eorm',eorm);
+                localStorage.setItem('ls_pass',pass);
+            }
+        </script>
     </div>
     
 </body>
