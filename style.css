@@ -200,7 +200,7 @@ span{
   } */
   .box:hover{
    background-color: #FFC300;
-   transition: 1.5s;
+   transition: 1s;
   }
 
   .boximg{
