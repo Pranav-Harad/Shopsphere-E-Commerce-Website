@@ -191,12 +191,16 @@ span{
     border-radius: 20%;
     color: #02162b;
     margin-bottom: 20px;
-    animation: coloranimate 5s infinite;
+    transition: .2s;
+    /* animation: coloranimate 5s infinite; */
   }
-  @keyframes coloranimate {
+  .box:hover{
+    background-color: #FFC300;
+  }
+  /* @keyframes coloranimate {
     from {background-color:#FFC300;}
     to {background-color:#e8e6df;}
-  }
+  } */
   .boximg{
     height: 350px;
     margin-left: 1rem;
