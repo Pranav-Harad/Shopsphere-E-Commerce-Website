@@ -120,6 +120,7 @@ span{
 .options a
 {   
     display: inline;
+    justify-content: space-between;
     font-size: 0.85rem;
     margin-left: 20px;
     text-decoration: none;
@@ -195,7 +196,7 @@ span{
   }
   .box:hover{
     background-color: #FFC300;
-    transition: .5s;
+    transition: 2s;
   }
   /* @keyframes coloranimate {
     from {background-color:#FFC300;}
