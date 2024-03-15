@@ -55,7 +55,7 @@ form .inputfield{
     text-decoration: underline;
     font-weight:600;
 }
-input[type="submit"]{
+input[type="button"]{
     width: 100%;
     height: 50px;
     margin-top: 10px;
@@ -67,7 +67,7 @@ input[type="submit"]{
     cursor: pointer;
     outline: none;
 }
-input[type="submit"]:hover{
+input[type="button"]:hover{
     background-color: #ede8d8;
     transition: 0.5s;
 }
