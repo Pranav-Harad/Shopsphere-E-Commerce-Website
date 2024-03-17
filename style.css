@@ -46,7 +46,7 @@ img{
 }
 .adddel{
     color: #FFC300;
-    font-size: 0.85rem;
+    font-size: 1.2rem;
     margin-left: 15px;
 }
 .addin{
@@ -90,7 +90,7 @@ img{
 }
 
 span{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 .navbar a{
     text-decoration: none;
@@ -103,7 +103,7 @@ span{
     text-decoration: none;
 }
 .returns{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 .cart i{
     font-size: 40px;
@@ -128,7 +128,7 @@ span{
 {   
     display: inline;
     justify-content: space-between;
-    font-size: 0.85rem;
+    font-size: 1.15rem;
     margin-left: 20px;
     text-decoration: none;
     color: #FFC300;
@@ -137,7 +137,7 @@ span{
     width: 80%;
 }
 .deals a{
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     font-weight: 700;
     text-decoration: none;
     color: #FFC300;  
@@ -204,7 +204,7 @@ span{
   }
   .box:hover{
     background-color: #FFC300;
-    transform: scale(1.1);
+    transform: scale(1.03);
     z-index: 2;
   }
   /* @keyframes coloranimate {
@@ -238,6 +238,7 @@ span{
     margin-top: 20px;
     font-size: 20px;
 }
+/* footer */
 .footpanel{
     background-color:#001D3D;
     border-top: 2px solid rgb(146, 140, 140);
