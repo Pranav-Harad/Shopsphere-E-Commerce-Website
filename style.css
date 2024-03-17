@@ -3,6 +3,12 @@
     font-family: Arial;
     border: border-box;
 }
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
 .navbar{
     height:100px ;
     background-color:#001D3D;
@@ -10,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 .nav-logo{
     height: 100px;
@@ -31,7 +38,7 @@ img{
     border: 1.25px solid transparent;
 }
 .border:hover{
-    border: 1.25px dotted #FFC300;
+    border: 2px solid #FFC300;
 }
 .add-icon{
     display: flex;
@@ -169,7 +176,7 @@ span{
     } 
   } 
   .slide-msg{
-    background-color: #4024ae;
+    background:linear-gradient(120deg,#3a1cb5,#3e23ad,#3a1cb5);
     color: #FFC300;
     font-size: 1.7rem;
     font-style:italic;
@@ -180,11 +187,11 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #4024ae;
+    background:linear-gradient(120deg,#3a1cb5,#3e23ad,#9f4c90);
     
   }
   .box{
-    height: 400px;
+    height: 500px;
     width: 28%;
     margin-top:70px ;
     background-color:#e8e6df ;
@@ -193,17 +200,19 @@ span{
     color: #02162b;
     margin-bottom: 20px;
     /* animation: coloranimate 5s infinite; */
+    transition: 2s;
   }
   .box:hover{
     background-color: #FFC300;
-    transition: 2s;
+    transform: scale(1.1);
+    z-index: 2;
   }
   /* @keyframes coloranimate {
     from {background-color:#FFC300;}
     to {background-color:#e8e6df;}
   } */
   .boximg{
-    height: 350px;
+    height: 430px;
     margin-left: 1rem;
     margin-right: 1rem;
     background-size: cover;
@@ -211,7 +220,7 @@ span{
     
   }
   .box-2{
-   background: url(images/img7.jpg);
+   background: url(images/img6.jpg);
    background-size: cover;
   
   }
@@ -221,8 +230,13 @@ span{
     text-align: center;
   }
 
-.content a{
-    text-decoration: none;
+.box a{
+    text-decoration: none; 
+    
+}
+.seemore{
+    margin-top: 20px;
+    font-size: 20px;
 }
 .footpanel{
     background-color:#001D3D;
