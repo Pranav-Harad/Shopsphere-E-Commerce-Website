@@ -3,6 +3,12 @@
     font-family: Arial;
     border: border-box;
 }
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
 .navbar{
     height:100px ;
     background-color:#001D3D;
@@ -144,12 +150,12 @@ span{
     background:linear-gradient(120deg,#3e23ad,#9f4c90);
 }
 .wavy{
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     font-size: 30px;
-    color: #ffc400b7;
+    color:#25a8e4;
     position: relative;
     -webkit-box-reflect: below -12px linear-gradient(transperent,rgba(228, 243, 16, 0.958));
 }
@@ -167,6 +173,7 @@ span{
     }
     20%{
         transform: translateY(-20px);
+        color:#ffc400b7;
     }
     40%,100%{
         transform: translateY(0px);
@@ -176,12 +183,12 @@ span{
     display: flex;
     flex-direction: wrap;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .fbox{
     flex-basis: 25%;
     padding: 30px ;
-    min-width:300px;
+    min-width: 300px;
     margin-bottom: 50px;
     margin-left: 30px;
     background-color: rgb(222, 215, 215);
@@ -280,7 +287,8 @@ h4{
   border-width: 4px 0 0;
   background: none;
 }
-    /* footer */
+
+  /* footer */
 .footpanel{
     background-color:#001D3D;
     border-top: 2px solid rgb(146, 140, 140);

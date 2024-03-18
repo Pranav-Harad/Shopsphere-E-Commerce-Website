@@ -192,7 +192,7 @@ span{
   }
   .box{
     height: 500px;
-    width: 28%;
+    width: 27%;
     margin-top:70px ;
     background-color:#e8e6df ;
     padding: 23px 0px 17px;
@@ -212,7 +212,7 @@ span{
     to {background-color:#e8e6df;}
   } */
   .boximg{
-    height: 430px;
+    height: 400px;
     margin-left: 1rem;
     margin-right: 1rem;
     background-size: cover;
