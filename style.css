@@ -10,7 +10,7 @@ header{
     z-index: 999;
 }
 .navbar{
-    height:100px ;
+    height:80px ;
     background-color:#001D3D;
     color: #FFC300;
     display: flex;
@@ -19,7 +19,7 @@ header{
     
 }
 .nav-logo{
-    height: 100px;
+    height: 80px;
     width: 100px;
 
 }
@@ -46,11 +46,11 @@ img{
 }
 .adddel{
     color: #FFC300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 15px;
 }
 .addin{
-    font-size: 1rem;
+    font-size: .9rem;
     margin-left: 5px;
 }
 .nav-search{
@@ -74,7 +74,7 @@ img{
 }
 .search-input{
     width: 100%;
-    font-size: 1rem;
+    font-size: .9rem;
     border: none;
 }
 .search-icon{
@@ -90,7 +90,7 @@ img{
 }
 
 span{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .navbar a{
     text-decoration: none;
@@ -103,7 +103,7 @@ span{
     text-decoration: none;
 }
 .returns{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .cart i{
     font-size: 40px;
@@ -128,7 +128,7 @@ span{
 {   
     display: inline;
     justify-content: space-between;
-    font-size: 1.15rem;
+    font-size: .9rem;
     margin-left: 20px;
     text-decoration: none;
     color: #FFC300;
@@ -137,7 +137,7 @@ span{
     width: 80%;
 }
 .deals a{
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
     color: #FFC300;  

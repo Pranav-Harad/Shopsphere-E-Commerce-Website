@@ -10,7 +10,7 @@ header{
     z-index: 999;
 }
 .navbar{
-    height:100px ;
+    height:80px ;
     background-color:#001D3D;
     color: #FFC300;
     display: flex;
@@ -18,7 +18,7 @@ header{
     justify-content: space-evenly;
 }
 .nav-logo{
-    height: 100px;
+    height: 80px;
     width: 100px;
 
 }
@@ -45,11 +45,11 @@ img{
 }
 .adddel{
     color: #FFC300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 15px;
 }
 .addin{
-    font-size: 1rem;
+    font-size: .9rem;
     margin-left: 5px;
 }
 .nav-search{
@@ -73,7 +73,7 @@ img{
 }
 .search-input{
     width: 100%;
-    font-size: 1.17rem;
+    font-size: 1rem;
     border: none;
 }
 .search-icon{
@@ -89,7 +89,7 @@ img{
 }
 
 span{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .navbar a{
     text-decoration: none;
@@ -102,7 +102,7 @@ span{
     text-decoration: none;
 }
 .returns{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .cart i{
     font-size: 40px;
@@ -127,7 +127,7 @@ span{
 {   
     display: inline;
     justify-content: space-between;
-    font-size: 1.15rem;
+    font-size: .9rem;
     margin-left: 20px;
     text-decoration: none;
     color: #FFC300;
@@ -136,11 +136,12 @@ span{
     width: 80%;
 }
 .deals a{
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
     color: #FFC300;  
 }
+/* feature products */
 .fcontainer{
     max-width: 100%;
     margin: auto;
@@ -175,28 +176,28 @@ span{
         color:#ffc400b7;
     }
     40%,100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
-      
 }
 .row{
     display: flex;
     flex-direction: wrap;
     justify-content: space-evenly;
     margin-top: 80px;
+    padding-bottom: 50px;
 }
 .fbox{
     flex-basis: 25%;
     padding: 30px ;
     min-width: 300px;
-    margin-bottom: 50px;
-    margin-left: 30px;
+    min-height: 400px;
+    margin-left: 27px;
     background-color: rgb(222, 215, 215);
     border-radius: 15px;
     transition: 1s;
 }
 .fbox img{
-    height: 430px;
+    height: 350px;
     background-size: cover;
     width: 100%;
 }
@@ -205,7 +206,7 @@ span{
     background-color: #FFC300;
 }
 h4{
-    margin-top: 15px;
+    margin-top: 10px;
     color: #555;
     font-weight: normal;
     font-size: 18px;
