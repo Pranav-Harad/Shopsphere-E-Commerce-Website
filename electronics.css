@@ -290,9 +290,82 @@ h4{
 }
 
   /* footer */
-.footpanel{
+  footer{
     background-color:#001D3D;
     border-top: 2px solid rgb(146, 140, 140);
+    color:white;
+    padding-top: 50px;
+}
+.footpanel{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcontent{
+    width: 33.3%;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.fcontent p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+.fcontent ul{
+    text-align: center;
+}
+.links{
+    padding: 0;
+}
+.links li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.links li::after{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #FFC300;
+    transition-duration: .5s;
+}
+.links li:hover::after{
+    width: 70px;
+}
+.social{
+    text-align: center;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social i{
+    color:white;
+    font-size: 25px;
+    transition: 1.2s;
+}
+.fcontent a{
+    color: white;
+    text-decoration: none;
+}
+.fcontent a:hover{
+    color:#FFC300;
+}
+.social i:hover{
+    color: #FFC300;
 }
 .footlogo{
     height: 200px;
@@ -302,19 +375,20 @@ h4{
     
 }
 .feat{
-    height: 50px;
+    height: 30px;
     border-top: 2px solid rgb(146, 140, 140) ;
     color: #FFC300;
-    font-size: 0.85rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.copyright{
-    color: #FFC300;
     text-align: center;
-    font-size: 0.85rem;
+    padding-top: 10px;
+}
+.fbar{
+    background: #003566;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.fbar p{
+    color:#FFC300;
 }
 
 
