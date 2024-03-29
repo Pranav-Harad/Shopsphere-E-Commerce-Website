@@ -315,6 +315,7 @@ h3{
     width: 190px;
     margin: auto;
     padding: 7px;
+    color:rgba(250, 235, 215, 0.523);
 }
 .fcontent ul{
     text-align: center;
@@ -353,12 +354,12 @@ h3{
     padding: 5px;
 }
 .social i{
-    color:white;
+    color:rgba(250, 235, 215, 0.523);
     font-size: 25px;
     transition: 1.2s;
 }
 .fcontent a{
-    color: white;
+    color:rgba(250, 235, 215, 0.523);;
     text-decoration: none;
 }
 .fcontent a:hover{

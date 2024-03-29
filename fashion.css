@@ -288,6 +288,27 @@ h4{
   border-width: 4px 0 0;
   background: none;
 }
+/* combo */
+.special_offer{
+    background: #FFC300;
+    margin-top: 20px;
+    padding: 30px 0;
+    height: 400px;
+}
+.srow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sbox .simg{
+    margin-top: 23px;
+    height: 350px;
+    border-radius: 40px;
+}
+.sbox p{
+    margin;
+}
+
 
   /* footer */
   footer{
@@ -315,6 +336,7 @@ h3{
     width: 190px;
     margin: auto;
     padding: 7px;
+    color:rgba(250, 235, 215, 0.523);
 }
 .fcontent ul{
     text-align: center;
@@ -353,12 +375,12 @@ h3{
     padding: 5px;
 }
 .social i{
-    color:white;
+    color:rgba(250, 235, 215, 0.523);
     font-size: 25px;
     transition: 1.2s;
 }
 .fcontent a{
-    color: white;
+    color: rgba(250, 235, 215, 0.523);
     text-decoration: none;
 }
 .fcontent a:hover{
