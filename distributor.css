@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e6df; /* Light background color */
+    color: #02162b; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar {
+    background-color: #001D3D; /* Dark blue background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-logo img {
+    width: 100px;
+}
+
+header .nav-links a {
+    color: #FFC300; /* Yellow text color */
+    margin: 0 10px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+
+main h2, main h3 {
+    color: #001D3D; /* Dark blue color */
+}
+
+.distributor-info {
+    background-color: #9f4c90; /* Violet background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* Distributor Registration Section */
+.distributor-registration {
+    display: flex;
+    flex-direction: column; /* Arrange content in a column */
+    align-items: center; /* Center the form horizontally */
+    justify-content: center; /* Center the form vertically */
+    width: 100%; /* Take up full width */
+    height: 100vh; /* Take up full height of the viewport */
+    padding: 20px; /* Add padding around the form */
+}
+
+/* Distributor Registration form */
+.distributor-registration form {
+    width: 400px; /* Adjust the form width as needed */
+    background-color: white; /* Background color for form */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Form labels */
+.distributor-registration label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form inputs and textarea */
+.distributor-registration input,
+.distributor-registration textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Form submit button */
+.distributor-registration button {
+    background-color: #FFC300; /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.distributor-registration button:hover {
+    background-color: #e8e6df;
+    color: #02162b;
+}
+
+
+
+footer{
+    background-color:#001D3D;
+    border-top: 2px solid rgb(146, 140, 140);
+    color:white;
+    padding-top: 50px;
+}
+.footpanel{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcontent{
+    width: 33.3%;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.fcontent p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    color:rgba(250, 235, 215, 0.523);
+}
+.fcontent ul{
+    text-align: center;
+}
+.links{
+    padding: 0;
+}
+.links li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.links li::after{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #FFC300;
+    transition-duration: .5s;
+}
+.links li:hover::after{
+    width: 70px;
+}
+.social{
+    text-align: center;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social i{
+    color:rgba(250, 235, 215, 0.523);
+    font-size: 25px;
+    transition: 1.2s;
+}
+.fcontent a{
+    color: rgba(250, 235, 215, 0.523);
+    text-decoration: none;
+}
+.fcontent a:hover{
+    color:#FFC300;
+}
+.social i:hover{
+    color: #FFC300;
+}
+.footlogo{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.feat{
+    height: 30px;
+    border-top: 2px solid rgb(146, 140, 140) ;
+    color: #FFC300;
+    text-align: center;
+    padding-top: 10px;
+}
+.fbar{
+    background: #003566;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.fbar p{
+    color:#FFC300;
+}

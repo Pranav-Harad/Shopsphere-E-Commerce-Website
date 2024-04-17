@@ -119,6 +119,29 @@ span{
     justify-content: space-evenly;
     color: #FFC300;
 }
+/* Select box styling */
+.select-options {
+    background-color: #003566; 
+    color: #FFC300; 
+    /* border: 1px solid #FFC300;  */
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    text-align: center;
+}
+
+
+.select-options option {
+    background-color: #003566; 
+    color: #FFC300; 
+}
+
+
+.select-options:focus {
+    outline: none; 
+    border: 1px solid #FFC300; 
+}
 .panel a{
     text-decoration: none;
     color: #FFC300;  
